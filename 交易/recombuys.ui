@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>recbuys</class>
+ <widget class="QWidget" name="recbuys">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>669</width>
+    <height>526</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>推荐购买股票</string>
+  </property>
+  <widget class="QTableWidget" name="SrecommendTable">
+   <property name="geometry">
+    <rect>
+     <x>85</x>
+     <y>31</y>
+     <width>521</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>股票编号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>股票单价</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>购买数量</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>购买金额</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>440</y>
+     <width>511</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="btn_buy">
+      <property name="text">
+       <string>确认购买</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="btn_unbuy">
+      <property name="text">
+       <string>不购买</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
